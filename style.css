@@ -273,10 +273,11 @@ body {
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: #FFF116 !important;
+    color: #FFF !important;
 }
 
 .navbar-nav li a:hover {
+    color: #FFF !important;
     text-decoration:underline;
 }
 
