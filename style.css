@@ -77,10 +77,17 @@ h3, h4 {
     opacity: 0.7;
 }
 
+.check {
+    border: 5px solid;
+    border-color: #2d2d30;
+    cursor: pointer;
+}
+
 .check:hover {
     border: 5px solid transparent;
     border-color: #1E3C91;
     cursor: pointer;
+
 }
 
 .sukima p {
