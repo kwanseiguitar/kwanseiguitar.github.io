@@ -416,8 +416,9 @@ ul.list-sns li a {
     border: 1px solid #000;
 }
 
-.layout-content .layout-content--home .row{
+.news-container{
     width: 100%;
+    padding: 0 20px;
 }
 
 h2.timeline-Header-title {
@@ -426,6 +427,7 @@ h2.timeline-Header-title {
     line-height: 24px;
     color: #292F33;
 }
+
 /*
 .dot-0{
   height: 100%;
