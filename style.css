@@ -7,6 +7,7 @@ body {
     text-align: justify;
     line-height:1.4em;
     font-feature-settings: "palt";
+
 }
 
 html {
@@ -23,7 +24,7 @@ li {
 	list-style-type:none;
 }
 ul{
-  list-style:none;   
+  list-style:none;
 }
 
 h3, h4 {
@@ -32,7 +33,7 @@ h3, h4 {
     color: #111;
 }
 .h3, h3{
-  font-size: 30px;  
+  font-size: 30px;
 }
 
 /* ----------------------- 部分 ------------------------------------------- */
@@ -42,12 +43,17 @@ h3, h4 {
 
 /* ----------------------- 背景の設定 ---------------------------------- */
 .bg-0 {
-    background: #FF0;
+    background: #E8EBF4;
 }
 
 .bg-1 {
     background: #2d2d30;
     color: #bdbdbd;
+}
+
+.bg-2 {
+    background: #1E3C91;
+    color: #fff;
 }
 
 .bg-1 h3 {
@@ -71,9 +77,17 @@ h3, h4 {
     opacity: 0.7;
 }
 
+.check {
+    border: 5px solid;
+    border-color: #2d2d30;
+    cursor: pointer;
+}
+
 .check:hover {
-    border: 10px solid transparent;
-    border-color: #f1f1f1;
+    border: 5px solid transparent;
+    border-color: #1E3C91;
+    cursor: pointer;
+
 }
 
 .sukima p {
@@ -150,7 +164,7 @@ h3, h4 {
     .carousel-caption {
         display: none;
     }
-        
+
 body {
     font: 400 25px/1.8 "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
     color: #777;
@@ -159,9 +173,9 @@ body {
     text-align: justify;
     line-height:1.4em;
     font-feature-settings: "palt";
-}    
-    
-    
+}
+
+
 }
 
 
@@ -170,10 +184,10 @@ body {
     .carousel-caption {
         display: none;
     }
-        
-    
-    
-    
+
+
+
+
 }
 
 @media screen and (max-width: 420px) {
@@ -186,7 +200,7 @@ body {
         .linkbox {
         display: block;
     }
-    
+
 }
 
 /* ----------------------- 設定 ------------------------------------------- */
@@ -260,7 +274,7 @@ body {
 .navbar {
     font-family: Montserrat, sans-serif;
     margin-bottom: 0;
-    background-color: #2d2d30;
+    background-color: #1E3C91;
     border: 0;
     font-size: 11px !important;
     letter-spacing: 1.3px;
@@ -268,11 +282,12 @@ body {
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: #d5d5d5 !important;
+    color: #FFF !important;
 }
 
 .navbar-nav li a:hover {
-    color: #fff !important;
+    color: #FFF !important;
+    text-decoration:underline;
 }
 
 .navbar-nav li.active a {
@@ -282,7 +297,7 @@ body {
 
 .navbar-default .navbar-toggle {
     border-color: transparent;
-    
+
 }
 
 .open .dropdown-toggle {
@@ -300,8 +315,8 @@ body {
 
 /* ----------------------- フッターの設定 ---------------------------- */
 footer {
-    background-color: #2d2d30;
-    color: #777;
+    background-color: #1E3C91;
+    color: #1E3C91;
     padding: 32px;
 }
 
@@ -352,7 +367,7 @@ textarea {
     transform: translate(-50%,-50%);
     z-index: 100;
 }
- 
+
 #fade {
     width: 100%;
     height: 100%;
@@ -408,12 +423,18 @@ ul.list-sns li a {
     border: 1px solid #000;
 }
 
-        h2.timeline-Header-title {
+.news-container{
+    width: 100%;
+    padding: 0 20px;
+}
+
+h2.timeline-Header-title {
     font-size: 1px;
     font-weight: 300;
     line-height: 24px;
     color: #292F33;
 }
+
 /*
 .dot-0{
   height: 100%;
