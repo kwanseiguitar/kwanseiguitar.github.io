@@ -1,7 +1,7 @@
 // 固定ヘッダーとbodyの開始位置関係
 $(window).on('load resize', function(){
     var height = $('.navbar').height();
-    $('body').css('padding-top',height); 
+    $('body').css('padding-top',height);
 });
 
 // ナビバーを閉じる：ナビバークリック時
@@ -72,18 +72,22 @@ $(".btn").click(function(){
         state = false;
     }
 });
-    
+
 // ロード画面
 $('head').append(
     '<style type="text/css">#pagetop { display: none; } #fade, #loader { display: block; }</style>'
 );
- 
-jQuery.event.add(window,"load",function() { 
+
+jQuery.event.add(window,"load",function() {
     var pageH = $("#pagetop").height();
     $("#fade").css("height", pageH).delay(2000).fadeOut(800);
     $("#loader").delay(600).fadeOut(300);
     $("#pagetop").css("display", "block");
 });
 
-
-
+// copyright自動更新
+function copyright(){
+    myDate = new Date();
+    myYear = "Copyright &copy; "+myDate.getFullYear();
+    document.write(myYear);
+}
