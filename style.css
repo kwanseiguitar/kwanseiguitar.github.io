@@ -43,12 +43,16 @@ h3, h4 {
 
 .col-sm-8{
     text-align: justify;
-    text-justify: inter-ideograph;
+    text-justify:inter-character;
 }
 
 .text-left{
     text-align: justify;
-    text-justify: inter-ideograph;
+    text-justify:inter-character;
+}
+
+.form-group{
+    overflow-wrap: break-word;
 }
 
 /* ----------------------- 背景の設定 ---------------------------------- */
@@ -406,7 +410,7 @@ ul.list-sns {
 
 ul.list-sns li {
   width:60px;
-transform: translate(-15%,0%);
+  transform: translate(-15%,0%);
   display: inline-block;
   text-align: center;
   font-size:16px;
